@@ -27,7 +27,7 @@ from bs4 import BeautifulSoup
 from collections import Counter
 
 # Get the URL
-myurl = input("Please enter a URL: ")
+myurl = "http://" + input("Please enter a URL: ")
 
 # Get page headers for size info
 header_info = requests.head(myurl).headers
